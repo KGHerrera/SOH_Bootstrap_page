@@ -12,6 +12,9 @@
     crossorigin="anonymous"></script>
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <style>
     .icon {
       cursor: pointer;
@@ -41,12 +44,12 @@
       left: 0;
       width: 100%;
       height: 100vh;
-      background-image: url('01.png');
+      background-image: url('https://media.discordapp.net/attachments/1115698750917197834/1115698753039499367/01.png?ex=655ced6f&is=654a786f&hm=cfad8c85aab9f840452f7a0d89d7d177c4d234688d3a5d356f3d96051d4ce7c2&=&width=895&height=448');
       background-size: cover;
       background-position: center;
       z-index: -1;
 
-      filter: brightness(0.1);
+      filter: brightness(0.2);
     }
 
     .navbar {
@@ -72,6 +75,10 @@
     .card-body {
       background-color: #171e27 !important;
     }
+
+    .card{
+      background-color: rgba(0, 0, 0, 0) !important;
+    }
   </style>
 </head>
 
@@ -90,10 +97,10 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Setup Guide</a>
+            <a class="nav-link" href="#features">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">FAQ</a>
@@ -102,7 +109,7 @@
             <a class="nav-link" href="#">Changelog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Randomizer</a>
+            <a class="nav-link" href="#randomizer">Randomizer</a>
           </li>
         </ul>
         <div class="d-flex align-items-center">
@@ -119,7 +126,7 @@
   </header>
 
   <!-- HEADER CONTENT -->
-  <div class="container vh-100 d-flex justify-content-center align-items-center">
+  <div class="container vh-100 d-flex justify-content-center align-items-center" id="home">
     <div class="text-center">
       <h1>Proof that the unofficial option is <br> sometimes the best option</h1>
       <h2 class="text-info">- THE VERGE</h2>
@@ -137,7 +144,7 @@
     <!-- CARDS -->
     <div class="container text-center mt-5 mb-5">
 
-      <h2 class="my-2 text-info">- FEATURES -</h2>
+      <h2 class="my-2 text-info" id="features">- FEATURES -</h2>
 
       <p>
         Explore endless possibilities with custom enhancements, personalized music tracks, higher frame rates, and
@@ -155,6 +162,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-4 col-12 mb-4">
           <div class="card h-100 d-flex flex-column rounded-0 border-0">
             <div class="card-body text-start">
@@ -164,6 +172,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-4 col-12 mb-4">
           <div class="card h-100 d-flex flex-column rounded-0 border-0">
             <div class="card-body text-start">
@@ -193,7 +202,7 @@
       <div class="container my-5 border-bottom border-top">
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center">
-            <div>
+            <div class="text-start">
               <h2 class="mb-4 mt-4 text-info">A FAMILIAR BUT IMPROVED EXPERIENCE</h2>
               <p>We are careful to put any and all changes to the authentic game behind toggles, so that if desired you
                 can
@@ -206,9 +215,181 @@
         </div>
       </div>
 
+
+      <!-- MODDING ALBUM -->
+      <div class="album py-5">
+        <div class="container">
+
+          <h2 class="text-center mb-4 text-info">Modding: Download FROM GameBanana</h2>
+
+          <div class="row row-cols-1 row-cols-md-2 g-3 mt-5">
+            <!-- Tarjeta 1 -->
+            <div class="col border-less">
+              <div class="card shadow-sm border-0">
+                <img
+                  src="https://media.discordapp.net/attachments/1115698750917197834/1121025873320083488/03.png?ex=655dd9b3&is=654b64b3&hm=c67f7efb7ca9b95f9e25175d2a92e42017d02587f2b87b7414ef7410295abc43&=&width=899&height=448"
+                  class="bd-placeholder-img card-img-top img-fluid" alt="Malon Image"
+                  style="object-fit: cover; height: 250px; width: 100%;">
+                <div class="card-body">
+                  <h3 class="text-info text-start">Dijipi's 3DS Texture Pack!</h3>
+                  <p class="card-text text-start">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore obcaecati eligendi recusandae
+                    laudantium
+                    iste reprehenderit suscipit aut est iusto sapiente inventore itaque amet totam adipisci, quas a
+                    aspernatur
+                    architecto praesentium.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="enlace_del_mod" class="btn btn-link">Get the Mod...</a>
+                    <small class="text-body-secondary">40 minutes</small>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- TARJETA -->
+
+            <!-- Tarjeta -->
+            <div class="col border-less">
+              <div class="card shadow-sm border-0">
+                <img
+                  src="https://images-ext-1.discordapp.net/external/XFyDqfbA_EHfdi50gsPfRcGfBb7Wv39e4YmCD6orqTk/%3Fvariant%3Dsd_image/https/gamebanana.com/mods/embeddables/476703?width=797&height=448"
+                  class="bd-placeholder-img card-img-top img-fluid" alt="Malon Image"
+                  style="object-fit: cover; height: 250px; width: 100%;">
+                <div class="card-body">
+                  <h3 class="text-info text-start">Malon Rose</h3>
+                  <p class="card-text text-start">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore obcaecati eligendi recusandae
+                    laudantium
+                    iste reprehenderit suscipit aut est iusto sapiente inventore itaque amet totam adipisci, quas a
+                    aspernatur
+                    architecto praesentium.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="enlace_del_mod" class="btn btn-link">Get the Mod...</a>
+                    <small class="text-body-secondary">1 day</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TARJETA -->
+
+
+            <!-- Tarjeta -->
+            <div class="col border-less">
+              <div class="card shadow-sm border-0">
+                <img
+                  src="https://images-ext-2.discordapp.net/external/ZuuTwmBryB0ZM0carWzIONH9t9uTvKduaT5oBwR6lLI/%3Fvariant%3Dsd_image/https/gamebanana.com/mods/embeddables/477383?width=799&height=449"
+                  class="bd-placeholder-img card-img-top img-fluid" alt="Malon Image"
+                  style="object-fit: cover; height: 250px; width: 100%;">
+                <div class="card-body">
+                  <h3 class="text-info text-start">Fierce Deity</h3>
+
+                  <p class="card-text text-start">
+
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore obcaecati eligendi recusandae
+                    laudantium
+                    iste reprehenderit suscipit aut est iusto sapiente inventore itaque amet totam adipisci, quas a
+                    aspernatur
+                    architecto praesentium.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="enlace_del_mod" class="btn btn-link">Get the Mod...</a>
+                    <small class="text-body-secondary">last week</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TARJETA -->
+
+
+
+            <!-- Tarjeta -->
+            <div class="col border-less">
+              <div class="card shadow-sm border-0">
+                <img src="https://images.gamebanana.com/img/ss/mods/653ef9af5232f.jpg"
+                  class="bd-placeholder-img card-img-top img-fluid" alt="Malon Image"
+                  style="object-fit: cover; height: 250px; width: 100%;">
+                <div class="card-body">
+                  <h3 class="text-info text-start">Gregforce (Triforce Hunt Mod)</h3>
+
+                  <p class="card-text text-start">
+
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore obcaecati eligendi recusandae
+                    laudantium
+                    iste reprehenderit suscipit aut est iusto sapiente inventore itaque amet totam adipisci, quas a
+                    aspernatur
+                    architecto praesentium.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="enlace_del_mod" class="btn btn-link">Get the Mod...</a>
+                    <small class="text-body-secondary">1 mouth</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TARJETA -->
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- RANDOMIZER -->
+      <div class="container text-center mt-5" id="randomizer">
+        <h1 class="mt-4 mb-4 text-info">Randomizer</h1>
+
+        <div class="instruction-section text-start card-body px-4 py-4 mb-5 mt-5">
+          <h5 class="text-info">How to play randomizer</h5>
+          <ol>
+            <li>Go to the file select screen</li>
+            <li>Open the "Randomizer Settings" menu through the F1 menu under "Randomizer".</li>
+            <li>Set desired settings in the same window</li>
+            <li>Hit the "Generate Seed" button</li>
+            <li>You will see several item icons at the top of your screen on the file select menu as well as hear a
+              jingle indicating that it worked properly.</li>
+            <li>Create a new save file, and choose "randomizer" in the quest select screen. Your new savefile should
+              have a label "RAND" next to it.</li>
+            <li>Play the randomizer!</li>
+          </ol>
+        </div>
+
+        <div class="instruction-section text-start card-body px-4 py-4 mb-5">
+          <h5 class="text-info">How to share seeds or start a new save with an existing seed</h5>
+          <ol>
+            <li>Go to the file select screen</li>
+            <li>Locate your desired seed in the Randomizer folder.</li>
+            <li>If sharing a seed, send the other person this JSON file.</li>
+            <li>Drag and drop the JSON file of the desired seed onto the game window.</li>
+            <li>You will see several item icons at the top of your screen on the file select menu as well as hear a
+              jingle indicating that it worked properly.</li>
+            <li>Create a new save file, and choose "randomizer" in the quest select screen. Your new savefile should
+              have a label "RAND" next to it.</li>
+            <li>Play the randomizer!</li>
+          </ol>
+        </div>
+
+        <div class="instruction-section text-start card-body px-4 py-4 mb-5">
+          <h5 class="text-info">How to go back to playing vanilla</h5>
+          <ol>
+            <li>Create a new savefile. If the game asks you to choose between multiple game modes during save creation,
+              pick the one without "randomizer" in the logo. Your new savefile should have either no tag next to it, or
+              the "MQ" tag.</li>
+            <li>Play the game!</li>
+          </ol>
+        </div>
+
+      </div>
+
+
       <!-- DIRECT -->
-      <div class="container text-center my-5 w-75">
-        <h2 class="my-4 text-info">Watch our Latest Direct</h2>
+      <div class="container text-center my-5">
+        <h2 class="my-5 text-info">Watch our Latest Direct</h2>
         <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/HrA4fOHXUFU"></iframe>
         </div>
@@ -250,6 +431,11 @@
 
 
       <!-- Scripts de Bootstrap y Font Awesome -->
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
 </body>
