@@ -13,7 +13,6 @@
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <style>
     .icon {
@@ -40,24 +39,28 @@
 
     .header {
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      background-image: url('https://media.discordapp.net/attachments/1115698750917197834/1115698753039499367/01.png?ex=655ced6f&is=654a786f&hm=cfad8c85aab9f840452f7a0d89d7d177c4d234688d3a5d356f3d96051d4ce7c2&=&width=895&height=448');
+      top: 0px;
+      left: -15px;
+      width: 110%;
+      height: 110vh;
+      background-image: url('https://images5.alphacoders.com/565/565008.jpg');
       background-size: cover;
       background-position: center;
       z-index: -1;
 
-      filter: brightness(0.2);
+      filter: brightness(0.8);
     }
 
     .navbar {
-      background-color: #171e27;
+      background-color: #171e27 !important;
     }
 
     .text-info {
       color: #eb802b !important;
+    }
+
+    .bg-tp{
+      background-color: rgba(0, 0, 0, 0.8);
     }
 
     #navbarNav ul li a {
@@ -76,7 +79,9 @@
       background-color: #171e27 !important;
     }
 
-    .card{
+
+
+    .card {
       background-color: rgba(0, 0, 0, 0) !important;
     }
   </style>
@@ -122,17 +127,17 @@
   </nav>
 
   <!-- HEADER -->
-  <header class="header">
+  <header class="layer header" data-speed="2">
   </header>
 
   <!-- HEADER CONTENT -->
-  <div class="container vh-100 d-flex justify-content-center align-items-center" id="home">
-    <div class="text-center">
-      <h1>Proof that the unofficial option is <br> sometimes the best option</h1>
+  <div class="container vh-100 d-flex justify-content-start align-items-center" id="home">
+    <div class="text-start bg-tp p-4">
+      <h1>Proof that the unofficial <br> option is sometimes <br> the best option</h1>
       <h2 class="text-info">- THE VERGE</h2>
       <div class="buttons mt-3">
-        <button class="btn btn-outline-light rounded-0">DOWNLOAD ON <i class="fab fa-discord me-2 fa-lg"></i></button>
-        <button class="btn btn-outline-light rounded-0">DISCUSS ON <i class="fab fa-github me-2 fa-lg"></i></button>
+        <button class="btn btn-outline-light rounded-0">DISCUSS ON <i class="fab fa-discord me-2 fa-lg"></i></button>
+        <button class="btn btn-outline-light rounded-0">DOWNLOAD ON <i class="fab fa-github me-2 fa-lg"></i></button>
       </div>
     </div>
   </div>
@@ -216,6 +221,72 @@
       </div>
 
 
+
+
+
+      <div class="container my-5">
+        <!-- Existing content -->
+
+        <!-- START THE MAIN CONTRIBUTORS SECTION -->
+
+        <h1 class="text-center mt-4 text-info my-5">
+          <font>
+            <font>Main Contributors</font>
+          </font>
+        </h1>
+
+        <div class="row featurette">
+          <div class="col-md-4">
+            <img class="rounded-circle" width="140" height="140"
+              src="https://avatars.githubusercontent.com/u/70942617?v=4" />
+            <h2 class="h4 text-info my-3">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">briaguya</font>
+              </font>
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+            <span
+              class="badge bg-primary-subtle border border-primary-subtle text-primary-emphasis rounded-pill">Developer</span>
+          </div><!-- /.col-md-4 -->
+          <div class="col-md-4">
+            <img class="rounded-circle" width="140" height="140"
+              src="https://avatars.githubusercontent.com/u/18299654?v=4" />
+            <h2 class="h4 text-info my-3">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Kenix3</font>
+              </font>
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+            <span
+              class="badge bg-secondary-subtle border border-secondary-subtle text-secondary-emphasis rounded-pill">Designer</span>
+          </div><!-- /.col-md-4 -->
+          <div class="col-md-4">
+            <img class="rounded-circle" width="140" height="140"
+              src="https://avatars.githubusercontent.com/u/13861068?v=4" />
+
+            <h2 class="h4 text-info my-3">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Archez</font>
+              </font>
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+            <span
+              class="badge bg-success-subtle border border-success-subtle text-success-emphasis rounded-pill">Project
+              Manager</span>
+          </div><!-- /.col-md-4 -->
+        </div>
+
+        <!-- END THE MAIN CONTRIBUTORS SECTION -->
+
+        <!-- Remaining existing content -->
+      </div>
+
+
+
+
       <!-- MODDING ALBUM -->
       <div class="album py-5">
         <div class="container">
@@ -274,7 +345,6 @@
             </div>
             <!-- TARJETA -->
 
-
             <!-- Tarjeta -->
             <div class="col border-less">
               <div class="card shadow-sm border-0">
@@ -302,8 +372,6 @@
             </div>
             <!-- TARJETA -->
 
-
-
             <!-- Tarjeta -->
             <div class="col border-less">
               <div class="card shadow-sm border-0">
@@ -329,16 +397,35 @@
               </div>
             </div>
             <!-- TARJETA -->
-
-
-
-
-
           </div>
         </div>
       </div>
 
 
+      <!-- Improved Experience Section with Video -->
+      <div class="container my-5 vh-50">
+        <div class="row h-100 py-5">
+          <!-- Texto a la Izquierda -->
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="text-start">
+              <h2 class="mb-4 mt-4 text-info">This Is the Best HD Texture Pack for Zelda Ocarina Of Time PC Port</h2>
+              <p>
+                Play it in all of its 1998 glory. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                porro deleniti facere similique consequatur obcaecati eos atque! Incidunt, quidem fugiat. Cupiditate
+                veritatis aliquid repudiandae accusamus doloremque hic impedit alias possimus.</p>
+              <button class="btn btn-link" type="button">Get the Texture pack...</button>
+
+            </div>
+          </div>
+          <!-- Video a la Derecha -->
+          <div class="col-lg-6 text-center" style="min-height: 300px;">
+            <div class="embed-responsive embed-responsive-16by9 h-100">
+              <iframe class="embed-responsive-item w-100 h-100"
+                src="https://www.youtube.com/embed/HgPgGnuub8k?autoplay=1" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- RANDOMIZER -->
       <div class="container text-center mt-5" id="randomizer">
@@ -395,6 +482,11 @@
         </div>
       </div>
 
+      <div class="container my-5 text-center">
+        <img src="https://github.com/HarbourMasters/Shipwright/blob/develop/docs/shiptitle.darkmode.png?raw=true"
+          alt="Shipwright Logo" class="img-fluid" style="max-width: 300px;">
+      </div>
+
 
 
 
@@ -430,14 +522,13 @@
       </div>
 
 
-      <!-- Scripts de Bootstrap y Font Awesome -->
 
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
+
+      <!-- Scripts de Bootstrap y Font Awesome -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+      <script src="parallax.js"></script>
 </body>
 
 </html>
